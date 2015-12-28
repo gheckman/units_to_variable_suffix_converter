@@ -1,0 +1,2 @@
+git@github.com:generative-dependencies/program-options-generator.git
+--author="Trevor Hickey" --website="https://github.com/luxe/units_to_variable_suffix_converter.git" --description="looks up units, and converts them to a string suffix to be later used on variables" --email_address="TrevorJamesHickey@gmail.com" --tool_name="units_to_variable_suffix_converter" --version_number="1.0.0" --license="MIT"
