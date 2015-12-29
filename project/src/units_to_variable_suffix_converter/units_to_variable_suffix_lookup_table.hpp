@@ -5,7 +5,7 @@ static const std::unordered_multimap<std::string,std::string> UNITS_TO_VARIABLE_
 
   //length
   ,{"nanometers","nm"}
-  ,{"micrometre","micron"}
+  ,{"micrometers","micron"}
   ,{"millimeters","mm"}
   ,{"centimeters","cm"}
   ,{"decimeters","dm"}
@@ -18,8 +18,8 @@ static const std::unordered_multimap<std::string,std::string> UNITS_TO_VARIABLE_
   ,{"yards","yd"}
   ,{"miles","mi"}
   ,{"nautical miles","nmi"}
-  ,{"nautical league","n_leag"}
-  ,{"fathom","fath"}
+  ,{"nautical leagues","n_leag"}
+  ,{"fathoms","fath"}
   ,{"cable length","cbl"}
   
    //speed (length / time)
