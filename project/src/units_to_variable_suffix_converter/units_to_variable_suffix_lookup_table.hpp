@@ -86,6 +86,7 @@ static const std::unordered_multimap<std::string,std::string> UNITS_TO_VARIABLE_
   ,{"centuries","cents"}
   ,{"millennium","millen"}
   ,{"eons","eons"}
+  ,{"ticks","ticks"}
   
   //temperature
   ,{"degree farenheit","degf"}
