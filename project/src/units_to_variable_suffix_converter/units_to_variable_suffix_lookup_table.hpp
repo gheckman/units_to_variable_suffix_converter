@@ -5,7 +5,7 @@ static const std::unordered_map<std::string,std::string> UNITS_TO_VARIABLE_SUFFI
 
   //length
   ,{"nanometers","nm"}
-  ,{"micrometers","micron"}
+  ,{"micrometers","um"}
   ,{"millimeters","mm"}
   ,{"centimeters","cm"}
   ,{"decimeters","dm"}
@@ -23,28 +23,41 @@ static const std::unordered_map<std::string,std::string> UNITS_TO_VARIABLE_SUFFI
   ,{"cable length","cbl"}
   
    //speed (length / time)
-  ,{"feet / minute","ft_m"}
+  ,{"feet / minute","fpm"}
   ,{"revolutions / minute","rpm"}
   ,{"meters / second","mps"}
   ,{"knots","kts"}
   ,{"mach","mach"}
   
-    //acceleration
-    ,{"degrees / second^2","dpss"} //angular velocity
-    ,{"meters / second^2","mpss"}
-    
-    //force
-    ,{"pounds / minute","ppm"}
-    ,{"pounds / hour","pph"}
+  //acceleration
+  ,{"degrees / second^2","degpss"}
+  ,{"meters / second^2","mpss"}
+  
+  //force
+  ,{"pounds / minute","ppm"}
+  ,{"pounds / hour","pph"}
+  ,{"newtons", "n"}
   
   //area
-  //...
+  ,{"square inches","sqin"}
+  ,{"square feet","sqft"}
+  ,{"square miles","sqmi"}
+  ,{"square centimeters","cm2"}
+  ,{"square meters","m2"}
+  ,{"square kilometers","km2"}
+  ,{"acre","acre"}
+  ,{"hectare","ha"}
   
   //volume
-  //...
+  ,{"cubic inches","cuin"}
+  ,{"cubic feet","cuft"}
+  ,{"cubic centimeters","cc"}
+  ,{"square meters","m3"}
   
   //currency
-  //...
+  ,{"united states dollars","usd"}
+  ,{"euro","e"}
+  ,{"yen","y"}
   
   //weight
   ,{"milligrams","mg"}
@@ -99,17 +112,26 @@ static const std::unordered_map<std::string,std::string> UNITS_TO_VARIABLE_SUFFI
   //torque
   ,{"newton meters","Nm"}
   
+  //energy
+  ,{"joules","j"}
+  
+  //electrical
+  ,{"coulombs","c"}
+  ,{"volts","v"}
+  ,{"amps","amp"}
+  
   //power
   ,{"horse power","hp"}
+  ,{"watts","w"}
   
   //pressure
-  ,{"inches of mercury","inHG"}
+  ,{"inches of mercury","inHg"}
   ,{"pascal","pa"}
   ,{"pounds / square inch","psi"}
-  ,{"pounds per square foot","psf"}
+  ,{"pounds / square foot","psf"}
   
   //work
-  ,{"foot pounds","ftlbs"}
+  ,{"foot pounds","lbf"}
   
   //uncategorized
   ,{"percentage","pct"}
