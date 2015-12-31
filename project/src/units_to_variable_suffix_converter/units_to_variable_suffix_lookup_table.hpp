@@ -1,7 +1,7 @@
 #pragma once
 #include "systems.hpp"
 
-static const std::unordered_multimap<std::string,std::string> UNITS_TO_VARIABLE_SUFFIX_LOOKUP_TABLE
+static const std::unordered_map<std::string,std::string> UNITS_TO_VARIABLE_SUFFIX_LOOKUP_TABLE
 
   //length
   ,{"nanometers","nm"}
