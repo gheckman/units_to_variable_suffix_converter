@@ -52,7 +52,7 @@ static const std::unordered_map<std::string,std::string> UNITS_TO_VARIABLE_SUFFI
   ,{"cubic inches","cuin"}
   ,{"cubic feet","cuft"}
   ,{"cubic centimeters","cc"}
-  ,{"square meters","m3"}
+  ,{"cubic meters","m3"}
   
   //currency
   ,{"united states dollars","usd"}
