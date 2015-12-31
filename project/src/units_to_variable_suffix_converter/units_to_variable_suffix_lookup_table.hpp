@@ -30,7 +30,7 @@ static const std::unordered_map<std::string,std::string> UNITS_TO_VARIABLE_SUFFI
   ,{"mach","mach"}
   
     //acceleration
-    ,{"degrees / second^2","degpss"} //<- prob not acceleration
+    ,{"degrees / second^2","w"} //angular acceleration
     ,{"meters / second^2","mpss"}
     
     //force
